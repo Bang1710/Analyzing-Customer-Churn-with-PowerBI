@@ -3,7 +3,7 @@
 For subscription-based businesses, reducing customer churn is a top priority. In this Power BI case study, you'll investigate a dataset from an example telecom company called Databel and analyze their churn rates. Analyzing churn doesn’t just mean knowing what the churn rate is: it’s also about figuring out why customers are churning at the rate they are, and how to reduce churn. You'll answer these questions by creating measures and calculated columns, while simultaneously creating eye-catching report pages.
 
 ## II. Dataset
-### Table ```Customer Status```
+### > Table ```Customer Status```
 
 | Field          | Description                                      |
 | -------------- | ------------------------------------------------ |
@@ -12,7 +12,7 @@ For subscription-based businesses, reducing customer churn is a top priority. In
 | Churn Reason   | The reason why the customer ended the contract    |
 | Churn Category | Groups multiple churn reasons for analysis       |
 
-#### Demographics
+### > Table ```Demographics```
 
 | Field        | Description                                       |
 | ------------ | ------------------------------------------------- |
@@ -21,7 +21,7 @@ For subscription-based businesses, reducing customer churn is a top priority. In
 | Senior       | Indicates if the customer is 65 or above (Yes/No) |
 | Age          | The age of the customer                            |
 
-#### Contract Information
+### > Table ```Contract Information```
 
 | Field                  | Description                                          |
 | ---------------------  | ---------------------------------------------------- |
@@ -32,7 +32,7 @@ For subscription-based businesses, reducing customer churn is a top priority. In
 | Group                  | Indicates if the customer is part of a group contract (Yes/No) |
 | Number of Customers in Group | Number of customers part of the group          |
 
-#### Subscription Types & Charges
+### > Table ```Subscription Types & Charges```
 
 | Field                     | Description                                           |
 | ------------------------- | ----------------------------------------------------- |
@@ -49,34 +49,34 @@ For subscription-based businesses, reducing customer churn is a top priority. In
 | Monthly Charges           | Average of all Monthly Charges to the customer         |
 | Total Charges             | Sum of all monthly charges                             |
 
-### III. Data analysis flow in Power BI
-#### 1. Data Check
+## III. Data analysis flow in Power BI
+### 1. Data Check
 + Check for duplicate or missing values
 + Do a sense check with other internal data sources
-#### 2. Explore Data
+### 2. Explore Data
 + Ask yourself the right questions
 + Build your first visualizations
-#### 3. Analyze & Visualize Data
+### 3. Analyze & Visualize Data
 + Choose the right visualization to convey a message
 + Perform more advanced analysis
-#### 4. Dashboarding
+### 4. Dashboarding
 + Combine visualizations in one or more dashboards
-#### 5. Communicate Insights
+### 5. Communicate Insights
 + Communicate your insights to stakeholders
-### IV. The Problem
-#### 1. Solving customer churn
+## IV. The Problem
+### 1. Solving customer churn
 + A fictitious dataset about churn from a Telecom provider (Databel)
 + Your task: discover why customers are churning
-#### 2. Defining churn
+### 2. Defining churn
 The churn rate, also known as the rate of attrition or customer churn, is the rate at which customers stop doing business with an entity.
 + Leaky bucket problem
 + Keeping customers is easier than getting new customers
 + Reducing churn is a priority for many companies
 
-### V. Insights discovered so far
+## V. Insights discovered so far
 + The churn rate for Databel is ~27%.
 + ~45% of the reasons why customers churn is related to competitors.
 + The churn rate in California is abnormally high (>60%).
 
-### VI. Dashboard
+## VI. Dashboard
 ![Dashboard part 01](https://drive.google.com/file/d/10-W94o42nw0mhzzOot1sJ6txNQyhYTWm/view)
