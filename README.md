@@ -79,6 +79,6 @@ The churn rate, also known as the rate of attrition or customer churn, is the ra
 + The churn rate in California is abnormally high (>60%).
 
 ## VI. Dashboard
-![Dashboard part 01]()
-![Dashboard part 02]()
-![Dashboard part 03]()
+![Dashboard part 01](https://github.com/Bang1710/Analyzing-Customer-Churn-with-PowerBI/blob/main/Dashboard/DB1.png)
+![Dashboard part 02](https://github.com/Bang1710/Analyzing-Customer-Churn-with-PowerBI/blob/main/Dashboard/DB2.png)
+![Dashboard part 03](https://github.com/Bang1710/Analyzing-Customer-Churn-with-PowerBI/blob/main/Dashboard/DB3.png)
